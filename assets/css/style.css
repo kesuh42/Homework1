@@ -2,8 +2,9 @@
 #name {
     position: relative;
     height: 100%;
-    left: 100px;
+    left: 300px;
     float: left;
+    color: white;
     background-color: #4aaaa5;
     padding: 22px;
     margin: 0px;
@@ -14,18 +15,24 @@ article {
 }
 
 .link {
-    float: right;
-    padding: 10px;
+    padding: 22px 25px;
     color: #666666;
 }
 
-.links {
+#links {
     position: relative;
-    right: 100px
+    top: 25px;
+    right: -1300px;
+    width: 50%;
+    height: 50px;
+
 }
 
 header {
     background-color: #ffffff;
+    border-bottom: 3px solid #cccccc;
     margin: 0px;
     padding: 0px;
+    height: 88px;
+    overflow: hidden;
 }
