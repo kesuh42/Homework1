@@ -1,17 +1,31 @@
 
-#name {
+header {
+    background-color: #ffffff;
+    border-bottom: 3px solid #cccccc;
+    height: 80px;
+    overflow: hidden;
+}
+    
+h1 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+
+}#name {
     position: relative;
     height: 100%;
-    left: 300px;
+    left: 464px;
     float: left;
     color: white;
     background-color: #4aaaa5;
-    padding: 22px;
+    padding: 20px 10px;
     margin: 0px;
 }
 
-article {
-    background-color: #666666;
+#links {
+    position: relative;
+    top: 25px;
+    right: -1020px;
+    width: 50%;
+    height: 50px;
 }
 
 .link {
@@ -19,20 +33,46 @@ article {
     color: #666666;
 }
 
-#links {
-    position: relative;
-    top: 25px;
-    right: -1300px;
-    width: 50%;
-    height: 50px;
-
+article {
+    width: 960px;
+    
+    color: #777777;
+    background-color: #ffffff;
+    margin: auto;
+    border-width: 50px 464px 500px 464px;
+    border-style: solid;
+    border-color: #dddddd;
+    padding: 30px;
+    
+    overflow: hidden;
 }
 
-header {
-    background-color: #ffffff;
-    border-bottom: 3px solid #cccccc;
-    margin: 0px;
-    padding: 0px;
-    height: 88px;
-    overflow: hidden;
+#aboutme{
+    color: #4aaaa5;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #dddddd;
+}
+
+#kevinpic {
+    float: left;
+    width: 300px;
+    height: 300px;
+    padding-right: 30px;
+}
+
+.articletext {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 2;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 80px;
+    width: 100%;
+    background-color: #666666;
+    text-align: center;
+    border-top: 10px solid #4aaaa5;
+    color: white;
 }
