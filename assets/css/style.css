@@ -43,7 +43,8 @@ body {
 .link {
     padding-top: 25px;
     padding-right: 25px;
-    color: #553131;
+    color: #777777;
+    text-decoration: none;
 }
 
 .textbackground {
@@ -116,16 +117,57 @@ button {
 
 #img2 {
     height: 200px;
-    position: relative;
-    left: 250px;
+    position: absolute;
+    left: 500px;
+    top: 0px;
 }
 
 #row1 {
     margin-bottom: 50px;
+    position: relative;
 }
 
 #img3 {
     height: 200px;
+}
+
+#imgbox1 {
+    position: absolute;
+    left: 0px;
+    top: 140px;
+    height: 30px;
+    width: 200px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    padding: 12px 0px;
+}
+
+#imgbox2 {
+    position: absolute;
+    left: 520px;
+    top: 230px;
+    height: 30px;
+    width: 200px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    padding: 12px 0px;
+}
+
+#imgbox3 {
+    position: absolute;
+    left: 20px;
+    top: 485px;
+    height: 30px;
+    width: 200px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    padding: 12px 0px;
 }
 
 footer {
