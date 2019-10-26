@@ -24,7 +24,6 @@ body {
 #name {
     position: relative;
     height: 100%;
-    
     float: left;
     color: #ffffff;
     background-color: #4aaaa5;
@@ -120,6 +119,7 @@ button {
     position: absolute;
     left: 500px;
     top: 0px;
+
 }
 
 #row1 {
@@ -142,12 +142,13 @@ button {
     font-size: 24px;
     text-align: center;
     padding: 12px 0px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 #imgbox2 {
     position: absolute;
-    left: 520px;
-    top: 230px;
+    left: 523px;
+    top: 234px;
     height: 30px;
     width: 200px;
     background-color: #4aaaa5;
@@ -155,6 +156,7 @@ button {
     font-size: 24px;
     text-align: center;
     padding: 12px 0px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 #imgbox3 {
@@ -168,6 +170,7 @@ button {
     font-size: 24px;
     text-align: center;
     padding: 12px 0px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 footer {
